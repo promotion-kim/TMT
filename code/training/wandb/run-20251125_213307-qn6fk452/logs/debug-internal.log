@@ -1,0 +1,7 @@
+{"time":"2025-11-25T21:33:07.390832473-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/sjkim/parm/code/training/wandb/run-20251125_213307-qn6fk452/logs/debug-core.log"}
+{"time":"2025-11-25T21:33:07.502123563-05:00","level":"INFO","msg":"created new stream","id":"qn6fk452"}
+{"time":"2025-11-25T21:33:07.502151457-05:00","level":"INFO","msg":"stream: started","id":"qn6fk452"}
+{"time":"2025-11-25T21:33:07.502191523-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"qn6fk452"}
+{"time":"2025-11-25T21:33:07.502315995-05:00","level":"INFO","msg":"sender: started","stream_id":"qn6fk452"}
+{"time":"2025-11-25T21:33:07.502440855-05:00","level":"INFO","msg":"handler: started","stream_id":"qn6fk452"}
+{"time":"2025-11-25T21:33:07.972576448-05:00","level":"INFO","msg":"Starting system monitor"}

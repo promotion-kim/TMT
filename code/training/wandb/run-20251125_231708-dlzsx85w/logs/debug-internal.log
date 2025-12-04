@@ -1,0 +1,15 @@
+{"time":"2025-11-25T23:17:08.633253477-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/sjkim/parm/code/training/wandb/run-20251125_231708-dlzsx85w/logs/debug-core.log"}
+{"time":"2025-11-25T23:17:08.745412302-05:00","level":"INFO","msg":"created new stream","id":"dlzsx85w"}
+{"time":"2025-11-25T23:17:08.745435858-05:00","level":"INFO","msg":"stream: started","id":"dlzsx85w"}
+{"time":"2025-11-25T23:17:08.746734721-05:00","level":"INFO","msg":"handler: started","stream_id":"dlzsx85w"}
+{"time":"2025-11-25T23:17:08.747111285-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"dlzsx85w"}
+{"time":"2025-11-25T23:17:08.747253649-05:00","level":"INFO","msg":"sender: started","stream_id":"dlzsx85w"}
+{"time":"2025-11-25T23:17:09.218578491-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-26T01:44:49.329641638-05:00","level":"INFO","msg":"stream: closing","id":"dlzsx85w"}
+{"time":"2025-11-26T01:44:49.329805782-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-26T01:44:49.33121761-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-26T01:44:50.59466326-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-26T01:44:51.003246076-05:00","level":"INFO","msg":"handler: closed","stream_id":"dlzsx85w"}
+{"time":"2025-11-26T01:44:51.003318901-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dlzsx85w"}
+{"time":"2025-11-26T01:44:51.003370639-05:00","level":"INFO","msg":"sender: closed","stream_id":"dlzsx85w"}
+{"time":"2025-11-26T01:44:51.004341373-05:00","level":"INFO","msg":"stream: closed","id":"dlzsx85w"}

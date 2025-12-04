@@ -1,0 +1,15 @@
+{"time":"2025-11-26T05:17:39.253753373-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/sjkim/parm/code/training/wandb/run-20251126_051739-8jrmcep5/logs/debug-core.log"}
+{"time":"2025-11-26T05:17:39.364320643-05:00","level":"INFO","msg":"created new stream","id":"8jrmcep5"}
+{"time":"2025-11-26T05:17:39.364345729-05:00","level":"INFO","msg":"stream: started","id":"8jrmcep5"}
+{"time":"2025-11-26T05:17:39.364468397-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:17:39.364601477-05:00","level":"INFO","msg":"sender: started","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:17:39.365061859-05:00","level":"INFO","msg":"handler: started","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:17:39.891914493-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-26T05:50:32.242412085-05:00","level":"INFO","msg":"stream: closing","id":"8jrmcep5"}
+{"time":"2025-11-26T05:50:32.242528667-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-11-26T05:50:32.244323962-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-11-26T05:50:33.087143658-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-26T05:50:33.398691262-05:00","level":"INFO","msg":"handler: closed","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:50:33.398747237-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:50:33.398779527-05:00","level":"INFO","msg":"sender: closed","stream_id":"8jrmcep5"}
+{"time":"2025-11-26T05:50:33.400081041-05:00","level":"INFO","msg":"stream: closed","id":"8jrmcep5"}

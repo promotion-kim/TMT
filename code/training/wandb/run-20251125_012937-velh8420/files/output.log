@@ -1,0 +1,9 @@
+  0%|                                                                                                                                                                         | 0/480 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▋                                                                                                                                                                | 2/480 [00:12<50:11,  6.30s/it]Traceback (most recent call last):
+  File "/home/sjkim/parm/code/training/train_pref_arm.py", line 261, in <module>
+    trainer.train()
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt

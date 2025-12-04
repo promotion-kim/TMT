@@ -1,0 +1,108 @@
+  0%|                                                                                                                                                                       | 0/512 [00:00<?, ?it/s]Could not estimate the number of tokens of the input, floating-point operations will not be computed
+ 21%|███████████████████████████████▊                                                                                                                           | 105/512 [30:35<2:13:04, 19.62s/it]Traceback (most recent call last):
+{'loss': 0.7073, 'grad_norm': 0.06590691208839417, 'learning_rate': 0.00025, 'loss_safe': 0.7061351537704468, 'rewards_safe/accuracies': 0.5099999904632568, 'loss_help': 0.9638394117355347, 'rewards_help/accuracies': 0.1899999976158142, 'train_decorr_loss': 0.25, 'train_total_loss': 0.7100486755371094, 'epoch': 0.04}
+{'loss': 0.6952, 'grad_norm': 0.10101079195737839, 'learning_rate': 0.0005, 'loss_safe': 0.6423382759094238, 'rewards_safe/accuracies': 0.6200000047683716, 'loss_help': 0.9473941326141357, 'rewards_help/accuracies': 0.23000000417232513, 'train_decorr_loss': 0.25, 'train_total_loss': 0.7026236653327942, 'epoch': 0.08}
+  File "/home/sjkim/parm/code/training/train_pref_arm.py", line 261, in <module>                                                                                                                    
+{'eval_loss': 0.721111528812422, 'eval_runtime': 83.8942, 'eval_samples_per_second': 5.626, 'eval_steps_per_second': 0.942, 'eval_loss_safe': 0.7338036298751831, 'eval_rewards_safe/accuracies': 0.5126582384109497, 'eval_loss_help': 0.8999048471450806, 'eval_rewards_help/accuracies': 0.2405063360929489, 'train_decorr_loss': 0.25, 'train_total_loss': 0.7107759118080139, 'epoch': 0.08}
+{'loss': 0.6683, 'grad_norm': 0.12174151092767715, 'learning_rate': 0.0004994905143145961, 'loss_safe': 0.7068746089935303, 'rewards_safe/accuracies': 0.46000000834465027, 'loss_help': 0.8946598768234253, 'rewards_help/accuracies': 0.30000001192092896, 'train_decorr_loss': 0.2500000298023224, 'train_total_loss': 0.6690410375595093, 'epoch': 0.12}
+{'loss': 0.6718, 'grad_norm': 0.1514817476272583, 'learning_rate': 0.0004979641338636934, 'loss_safe': 0.7164545655250549, 'rewards_safe/accuracies': 0.5699999928474426, 'loss_help': 0.8965212106704712, 'rewards_help/accuracies': 0.2199999988079071, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6550759673118591, 'epoch': 0.16}
+{'eval_loss': 0.6835476555264554, 'eval_runtime': 84.9242, 'eval_samples_per_second': 5.558, 'eval_steps_per_second': 0.93, 'eval_loss_safe': 0.7245235443115234, 'eval_rewards_safe/accuracies': 0.5316455960273743, 'eval_loss_help': 0.8802551031112671, 'eval_rewards_help/accuracies': 0.22151899337768555, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6854618191719055, 'epoch': 0.16}
+{'loss': 0.7019, 'grad_norm': 0.15840767323970795, 'learning_rate': 0.0004954270799992137, 'loss_safe': 0.6765123009681702, 'rewards_safe/accuracies': 0.6299999952316284, 'loss_help': 0.878858745098114, 'rewards_help/accuracies': 0.2800000011920929, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6693328022956848, 'epoch': 0.19}
+{'loss': 0.6777, 'grad_norm': 0.1835443079471588, 'learning_rate': 0.0004918896934621733, 'loss_safe': 0.6864537000656128, 'rewards_safe/accuracies': 0.5400000214576721, 'loss_help': 0.8713899254798889, 'rewards_help/accuracies': 0.23999999463558197, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6906301975250244, 'epoch': 0.23}
+{'eval_loss': 0.6846150448004039, 'eval_runtime': 85.6211, 'eval_samples_per_second': 5.513, 'eval_steps_per_second': 0.923, 'eval_loss_safe': 0.7088133096694946, 'eval_rewards_safe/accuracies': 0.5759493708610535, 'eval_loss_help': 0.8339260220527649, 'eval_rewards_help/accuracies': 0.29113924503326416, 'train_decorr_loss': 0.24999992549419403, 'train_total_loss': 0.6706104874610901, 'epoch': 0.23}
+{'loss': 0.6279, 'grad_norm': 0.23481227457523346, 'learning_rate': 0.0004873663922350073, 'loss_safe': 0.6765943169593811, 'rewards_safe/accuracies': 0.6000000238418579, 'loss_help': 0.8388034701347351, 'rewards_help/accuracies': 0.36000001430511475, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6351034045219421, 'epoch': 0.27}
+{'loss': 0.6313, 'grad_norm': 0.21556425094604492, 'learning_rate': 0.0004818756127755237, 'loss_safe': 0.6760448217391968, 'rewards_safe/accuracies': 0.4699999988079071, 'loss_help': 0.821315586566925, 'rewards_help/accuracies': 0.28999999165534973, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6400009393692017, 'epoch': 0.31}
+{'eval_loss': 0.6442019141200871, 'eval_runtime': 83.8972, 'eval_samples_per_second': 5.626, 'eval_steps_per_second': 0.942, 'eval_loss_safe': 0.7148593664169312, 'eval_rewards_safe/accuracies': 0.5189873576164246, 'eval_loss_help': 0.8010399341583252, 'eval_rewards_help/accuracies': 0.297468364238739, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6378623247146606, 'epoch': 0.31}
+{'loss': 0.6237, 'grad_norm': 0.35926663875579834, 'learning_rate': 0.0004754397348720129, 'loss_safe': 0.7046980857849121, 'rewards_safe/accuracies': 0.550000011920929, 'loss_help': 0.7690388560295105, 'rewards_help/accuracies': 0.4000000059604645, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6357042789459229, 'epoch': 0.35}
+{'loss': 0.6221, 'grad_norm': 11.658720016479492, 'learning_rate': 0.0004680849904257938, 'loss_safe': 0.6738501191139221, 'rewards_safe/accuracies': 0.6299999952316284, 'loss_help': 0.7579898238182068, 'rewards_help/accuracies': 0.3499999940395355, 'train_decorr_loss': 0.25, 'train_total_loss': 0.5982564687728882, 'epoch': 0.39}
+{'eval_loss': 0.6466266621888773, 'eval_runtime': 84.4755, 'eval_samples_per_second': 5.587, 'eval_steps_per_second': 0.935, 'eval_loss_safe': 0.7117605805397034, 'eval_rewards_safe/accuracies': 0.5569620132446289, 'eval_loss_help': 0.7857284545898438, 'eval_rewards_help/accuracies': 0.31012657284736633, 'train_decorr_loss': 0.25, 'train_total_loss': 0.6379592418670654, 'epoch': 0.39}
+    trainer.train()
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 2118, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 3036, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1408, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/home/sjkim/parm/code/training/pref_arm_trainer.py", line 235, in get_batch_loss_metrics
+    (help_chosen_logps, _, _, _) = self.concatenated_forward(model, batch)
+  File "/home/sjkim/parm/code/training/pref_arm_trainer.py", line 118, in concatenated_forward
+    all_logits = model(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1523, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1359, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/utils/operations.py", line 825, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/utils/operations.py", line 813, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 16, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/home/sjkim/parm/peft/src/peft/peft_model.py", line 1131, in forward
+    return self.base_model(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/parm/peft/src/peft/tuners/tuners_utils.py", line 161, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1196, in forward
+    outputs = self.model(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1005, in forward
+    layer_outputs = self._gradient_checkpointing_func(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/_compile.py", line 24, in inner
+    return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py", line 489, in _fn
+    return fn(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/_dynamo/external_utils.py", line 17, in inner
+    return fn(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+    ret = function(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 754, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 240, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/bitsandbytes/nn/modules.py", line 468, in forward
+    out = bnb.matmul_4bit(x, self.weight.t(), bias=bias, quant_state=self.weight.quant_state)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 579, in matmul_4bit
+    return MatMul4Bit.apply(A, B, out, bias, quant_state)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/torch/autograd/function.py", line 553, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py", line 509, in forward
+    output = torch.nn.functional.linear(A, F.dequantize_4bit(B, quant_state).to(A.dtype).t(), bias)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 172.00 MiB. GPU 0 has a total capacity of 44.40 GiB of which 13.62 MiB is free. Process 2662903 has 13.93 GiB memory in use. Process 2668927 has 13.93 GiB memory in use. Including non-PyTorch memory, this process has 16.51 GiB memory in use. Of the allocated memory 15.12 GiB is allocated by PyTorch, and 752.88 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

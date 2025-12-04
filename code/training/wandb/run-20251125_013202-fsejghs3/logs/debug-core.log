@@ -1,0 +1,7 @@
+{"time":"2025-11-25T01:32:02.03968721-05:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp3376awq8/port-2607713.txt","pid":2607713,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-11-25T01:32:02.040951218-05:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44897,"Zone":""}}
+{"time":"2025-11-25T01:32:02.041052924-05:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":2607713}
+{"time":"2025-11-25T01:32:02.224935983-05:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:52872"}
+{"time":"2025-11-25T01:32:02.688367967-05:00","level":"INFO","msg":"handleInformInit: received","streamId":"fsejghs3","id":"127.0.0.1:52872"}
+{"time":"2025-11-25T01:32:02.799966413-05:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"fsejghs3","id":"127.0.0.1:52872"}
+{"time":"2025-11-25T01:46:30.824619327-05:00","level":"INFO","msg":"Parent process exited, terminating service process."}

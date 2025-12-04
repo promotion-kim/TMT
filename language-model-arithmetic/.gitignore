@@ -1,0 +1,6 @@
+.env
+.ipynb_checkpoints/
+__pycache__/
+finetune/
+eval/
+*.egg-info/

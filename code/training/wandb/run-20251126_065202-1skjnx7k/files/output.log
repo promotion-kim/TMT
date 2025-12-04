@@ -1,0 +1,14 @@
+  0%|                                                                                                                                                           | 0/480 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sjkim/parm/code/training/train_pref_arm.py", line 261, in <module>
+    trainer.train()
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 2118, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/transformers/trainer.py", line 3036, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/sjkim/miniconda3/envs/parm/lib/python3.10/site-packages/trl/trainer/dpo_trainer.py", line 1408, in compute_loss
+    loss, metrics = self.get_batch_loss_metrics(model, inputs, train_eval="train")
+  File "/home/sjkim/parm/code/training/pref_arm_trainer.py", line 223, in get_batch_loss_metrics
+    weighted_gaps = preference * (stacked_losses - ideal_point)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
