@@ -1,12 +1,12 @@
-# PARM 
+# Tchebycheff scalarized Multi-objective Test-time alignment (TMT) 
 
-Baijiong Lin, Weisen Jiang, Yuancheng Xu, Hao Chen, and Ying-Cong Chen. PARM: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model. In *ICML*, 2025.
+To capture non-convex Pareto frontiers, we employ Tchebycheff (TCH) and Smooth Tchebycheff (STCH) scalarization in the optimization process.
 
 ## Installation
 Our code is based on [TRL](https://github.com/huggingface/trl) and [PEFT](https://github.com/huggingface/peft) for training and [Model_Arithmetic](https://github.com/eth-sri/language-model-arithmetic) for inference. 
 ```
-conda create -n parm python=3.10
-conda activate parm
+conda create -n tmt python=3.10
+conda activate tmt
 
 cd language-model-arithmetic/
 pip install -e .
@@ -27,8 +27,9 @@ pip install -r requirements.txt
 
 ## Preparing Data
 ```
-cd code/data
+cd code/data # or code/data/hh
 python relabel.py
+python relabel_hh.py
 ```
 
 ## Training
@@ -39,22 +40,14 @@ bash run.sh
 
 ## Evaluation
 ```
-cd code/evaluation
-python generate_outputs.py --model_parm_both_name_or_path /path --alpha_helpfulness 0.5 --alpha_harmlessness 0.5
-python compute_reward.py --path /path
+cd code/evaluation # or code/hh/evaluation
+bash generation.sh
+bash compute_reward.sh
 ```
+For Pareto frontier visualization and metric comparisons, see the pareto.ipynb file.
 
 ## Acknowledgement
-This codebase is heavily based on [GenARM](https://github.com/Yuancheng-Xu/GenARM).
+This codebase is heavily based on [PARM](https://github.com/Baijiong-Lin/PARM).
 
-## Citation
-If you find this work/code useful for your research, please cite the following:
-```
-@inproceedings{lin2025parm,
-  title={{PARM}: Multi-Objective Test-Time Alignment via Preference-Aware Autoregressive Reward Model},
-  author={Lin, Baijiong and Jiang, Weisen and Xu, Yuancheng and Chen, Hao and Chen, Ying-Cong},
-  booktitle={International Conference on Machine Learning},
-  year={2025}
-}
 ```
 
