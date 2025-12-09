@@ -26,7 +26,6 @@ pip install -r requirements.txt
 ```
 
 ## Preparing Data
-To see extra objective, like humor, please see the HH dataset
 ```
 cd code/data # or code/data/hh
 python relabel.py
