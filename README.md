@@ -26,6 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## Preparing Data
+To see extra objective,
 ```
 cd code/data # or code/data/hh
 python relabel.py
