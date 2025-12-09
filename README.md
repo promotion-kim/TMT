@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## Preparing Data
-To see extra objective, like humor, please
+To see extra objective, like humor, please see the 
 ```
 cd code/data # or code/data/hh
 python relabel.py
