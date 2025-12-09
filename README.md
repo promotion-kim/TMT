@@ -3,7 +3,7 @@
 To capture non-convex Pareto frontiers, we employ Tchebycheff (TCH) and Smooth Tchebycheff (STCH) scalarization in the optimization process.
 
 ## Installation
-Our code is based on [TRL](https://github.com/huggingface/trl) and [PEFT](https://github.com/huggingface/peft) for training and [Model_Arithmetic](https://github.com/eth-sri/language-model-arithmetic) for inference (test). 
+Our code is based on [TRL](https://github.com/huggingface/trl) and [PEFT](https://github.com/huggingface/peft) for training and [Model_Arithmetic](https://github.com/eth-sri/language-model-arithmetic) for inference (test-). 
 ```
 conda create -n tmt python=3.10
 conda activate tmt
